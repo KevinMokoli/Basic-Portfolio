@@ -1,0 +1,186 @@
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+body {
+  font-size: 24px;
+  font-family: "roboto";
+  background-image: url("https://www.welovesolo.com/wp-content/uploads/2014/12/p16pstgpo41lcp1tbe1v1v1aai125m9-details.jpg");
+  background-repeat: repeat;
+  background-position: left top;
+  margin-right: 0px;
+
+}
+
+header {
+  padding: 21.5px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  border-bottom: solid #C1C3C4;
+  border-bottom-width: 1px;
+  color: #333;
+  background: white;
+}
+
+h1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	float: left;
+	padding: 20px;
+	margin-left: 10%;
+	font-size: 24px;
+	color: white;
+	background: #1E9AB9;
+	border: 2px ;
+    border-radius: 5px;
+}
+
+section {
+  padding: 0px;
+  margin-bottom: 20px;
+  margin-top: 1%;
+  text-align: right;
+  font-size: 15px;
+  font-color: #C1C3C4;
+
+
+}
+
+#nav1 {
+	/*position: relative;
+	top: 20px;
+	right: 175px;
+	*/
+  margin-left: 56%;	
+  float: left;
+  width: 7%;
+  color: grey;
+  font-size: 12px;
+  text-decoration: none;
+  border-right: 1px solid #C1C3C4;
+}
+
+#nav2 {
+	/*
+	position: relative;
+	top: 20px;
+	right: 100px;
+	*/
+  float: left;
+  width: 7%;
+  color: grey;
+  font-size: 12px;
+  text-decoration: none;
+  border-right: 1px solid #C1C3C4;
+}
+
+#nav3 {
+	/*
+	position: relative;
+	top: 20px;
+	right: 25px;
+	*/
+  float: left;
+  width: 7%;
+  color: grey;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+/* The container for the ABOUT ME area */
+.container {
+	float: left;
+	background: white;
+	margin-top: 20px;
+	margin-left: 10%;
+	margin-bottom: 40px;
+	width: 44.5%;
+	border: 2px ;
+    border-radius: 5px;
+}    
+
+#line-about {
+	border-bottom: 2px solid #C1C3C4;
+	margin-top: 0;
+	margin-bottom: 5%;
+	margin-right: 20px;
+	margin-left: 20px;
+	text-align: center;    
+}
+
+h2 {
+	text-align: left;
+	margin-left: 0%;
+	padding: 20px;
+	color: #1E9AB9;
+}
+
+#bio-image {
+	float:left;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+    border-radius: 10px;
+	
+}
+
+#aboutmetext {
+	font-size: 14px;
+	text-align: left;
+	line-height: 24px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-top: 0px;
+	color: #59717E;
+}
+
+.container-connect {
+	float: left;
+	background: white;
+	padding: 25px;
+	margin-top: 20px;
+	margin-right: 10%;
+	margin-left: 40px;
+	font-size: 18px;
+	color: #1E9AB9;
+	border: 2px ;
+    border-radius: 5px;
+	
+}
+
+#line-connect {
+	border-bottom: 1px solid #C1C3C4;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+#gh-image {
+	text-decoration: none;
+	margin: 5px;
+}
+
+#li-image {
+	text-decoration: none;
+	margin: 5px;
+}
+
+#fb-image {
+	text-decoration: none;
+	margin: 5px;
+}
+
+footer {
+	clear: both;
+	background-color: grey;
+	border-top: 10px solid #1E9AB9;
+	margin-top: 10%;
+	color: white;
+	padding: 20px;
+	font-size: 12px;
+
+}
