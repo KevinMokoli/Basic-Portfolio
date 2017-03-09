@@ -4,7 +4,7 @@
   text-align: center;
 }
 body {
-  font-size: 24px;
+  font-size: 20px;
   font-family: "roboto";
   background-image: url("https://www.welovesolo.com/wp-content/uploads/2014/12/p16pstgpo41lcp1tbe1v1v1aai125m9-details.jpg");
   background-repeat: repeat;
@@ -12,6 +12,7 @@ body {
   margin-right: 0px;
 
 }
+
 
 header {
   padding: 21.5px;
@@ -28,11 +29,11 @@ h1 {
 	top: 0px;
 	left: 0px;
 	float: left;
-	padding: 20px;
+	padding: 22.5px;
 	margin-left: 10%;
-	font-size: 24px;
+	font-size: 20px;
 	color: white;
-	background: #1E9AB9;
+	background: /*#1E9AB9 */ black;
 	border: 2px ;
     border-radius: 5px;
 }
@@ -43,6 +44,7 @@ section {
   margin-top: 1%;
   text-align: right;
   font-size: 15px;
+  font-weight: lighter;
   font-color: #C1C3C4;
 
 
@@ -62,6 +64,17 @@ section {
   border-right: 1px solid #C1C3C4;
 }
 
+#nav1:hover {
+  margin-left: 56%;	
+  float: left;
+  width: 7%;
+  color: #1E9AB9;
+  font-size: 14px;
+  text-decoration: none;
+  border-right: 1px solid #C1C3C4;
+
+}
+
 #nav2 {
 	/*
 	position: relative;
@@ -76,6 +89,15 @@ section {
   border-right: 1px solid #C1C3C4;
 }
 
+#nav2:hover {
+  float: left;
+  width: 7%;
+  color: #1E9AB9;
+  font-size: 14px;
+  text-decoration: none;
+  border-right: 1px solid #C1C3C4;
+}
+
 #nav3 {
 	/*
 	position: relative;
@@ -86,6 +108,14 @@ section {
   width: 7%;
   color: grey;
   font-size: 12px;
+  text-decoration: none;
+}
+
+#nav3:hover {
+float: left;
+  width: 7%;
+  color: #1E9AB9;
+  font-size: 14px;
   text-decoration: none;
 }
 
@@ -112,6 +142,7 @@ section {
 
 h2 {
 	text-align: left;
+	font-weight: bold;
 	margin-left: 0%;
 	padding: 20px;
 	color: #1E9AB9;
@@ -130,6 +161,7 @@ h2 {
 	font-size: 14px;
 	text-align: left;
 	line-height: 24px;
+	font-weight: lighter;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
@@ -200,6 +232,17 @@ footer {
 
 }
 
+input[type=submit] {
+    width: 100%;
+    background-color: #C1C3C4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
 #nameinput {
 	width: 96%;
 	margin-bottom: 3%;
@@ -213,6 +256,10 @@ footer {
     color: #1E9AB9;
 	
 	
+}
+
+#lnamelabel {
+	float:right;
 }
 
 #emailinput {
@@ -231,7 +278,7 @@ footer {
 
 #messageinput {
 	width: 96%;
-	height: 100px;
+	height: 200px;
 	border: .2px solid #C1C3C4;
     border-radius: 5px;
     text-align: left;
@@ -242,7 +289,7 @@ footer {
     color: #1E9AB9;
 }
 
-button {
+button{
 	padding: 0px;
 	font-family: "roboto";
 	font-size: 15px;
@@ -251,8 +298,160 @@ button {
 	color: white;
 	background-color: #1E9AB9;
 	margin-bottom: 20px;
+	border: .5px solid grey;
 
 }
+button:hover {
+	background-color: grey;
+	font-family: "roboto";
+	font-size: 15px;
+	width: 150px;
+	height: 40px;
+	color: white;
+	margin-bottom: 20px;
+	border: .5px solid grey;
+}
+
+
+/* Portfolio Area */
+#image-1 {
+	float: left;
+	margin-left: 4%;
+
+}
+
+#image-1over{
+	position: relative;
+	top: -70px;
+	right: 0px;
+	text-align: center;
+	background-color: #1E9AB9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+}
+
+
+#image-2 { 
+	float: left;
+	margin-left: 17%;
+
+}
+
+#image-2over {
+	position: relative;
+	top: -70px;
+	right: 0px;
+	text-align: center;
+	background-color: #1E9AB9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+
+}
+
+#image-3 {
+	clear: both;
+	float: left;
+	margin-left: 4%;
+}
+
+#image-3over {
+	position: relative;
+	top: -70px;
+	right: 0px;
+	text-align: center;
+	background-color: #1E9AB9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+
+}
+
+#image-4 {
+	float: left;
+	margin-left: 17%;
+
+}
+
+#image-4over {
+	position: relative;
+	top: -70px;
+	right: 0px;
+	text-align: center;
+	background-color: #1E9AB9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+
+}
+
+#image-5 {
+	clear:both;
+	float:left;
+	margin-left: 4%;
+
+}
+
+#image-5over {
+	position: relative;
+	top: -70px;
+	right: 0px;
+	text-align: center;
+	background-color: #1E9AB9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+
+}
+
+#image-6 {
+	float:left;
+	margin-left: 17%;
+
+}
+
+#image-6over {
+	position: relative;
+	top: -70px;
+	right: 0px;
+	text-align: center;
+	background-color: #1E9AB9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
